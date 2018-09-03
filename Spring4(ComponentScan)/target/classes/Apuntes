@@ -1,0 +1,46 @@
+Para configurar el contenedor de Spring con nuestros beans, podemos mezclar
+ XML`S <context: component-scan> con JavaConfig configuration.
+ Podemos incluso evitar el total de XML  por utilizar @ComponentScan.
+ Ahi tambien podemos mezclar la fabrica.
+ Podemos anotar clases con @Configuration teniendo metodos con
+ la anotacion @Bean la cual retorna instancias de los bean.
+ Para component scanning a trabajar nosotros debemos anotar 
+ nuestros beans con uno de las anotaciones de stereotype.
+ 1.-Component
+ 2.-Controller
+ 3.-Repository
+ 4.-Service
+ 
+ Las clases que tienen encima una de la anotaciones son candidatas
+ para el contenedor de registro de spri`ng cuando se utliliza
+ scanning.
+ La mas imporitante es Component annotation.
+ El resto son especializacion de component
+ Cada una es anotado con Component a si mismo.
+ Ellos representan los roles in la aplicacion en general diseñada.
+ 
+ Puedes anotar tus clases componentes con @Component, pero por
+ anotacion ellos con @Repository, @Servicie, or @Controller en
+ lugar de. tus clases son mas correctamente situadas para procesar por
+ herramientas o asociandp con aspectos. Por ejemplo, estos 
+ estereotipos anotaciones hacen tarjetas ideales para puntos de corte
+ Es tambien posible que @Repository,@ Servicie, y @Controller 
+ puede llevar semantica adicional en futuros lanzamientos de Spring
+ Frameworks.si tu estas eligiendo  entre utilizar @Component o @Servicie
+ para tu capa de servicio, @Servicie es claramente la mejor eleccion
+ 
+ 
+ La clase AppConfig es anotada con @ComponentScan ("com.logicbig.example.bean")
+ Todos los beans son anotados con @Component, excepto para MyService cual es solo
+ una interface
+ Ahi estan dos implementaciones de MySevice y ServiceImplB. Asi para 
+ evitar ambiguedaddes, llamamos ServiceImplaA mediante el uso @Component("basic-service").
+ Podriamos haber usadp @Qualifier en lugar para no,mbrar los bean componentes.
+ 
+ ServiceImplA es tambien anotado con @Lazy asi es @PostConstruct metodo unicamente se llama cuando es usado 
+ en tiempo 
+ MyPrototypeBean is anotado con @Scope(ConfigurableBeanFactory.SCOPE_PROTOTYPE) y tambien tiene
+ dependencia de MyService. 
+ 
+ Darse cuuenta el uso habitual de @Autowired y @Qualifier . Podriamos usar solo @Resource("basic-service") en lugar.
+ 

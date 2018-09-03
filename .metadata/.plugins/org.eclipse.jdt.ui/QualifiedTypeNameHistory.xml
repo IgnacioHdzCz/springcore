@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="pbas.ignacio.Iservicio.InterfaceServicio"/>
+<fullyQualifiedTypeName name="pbas.ignacio.ImplServicio.ImplServicio"/>
+<fullyQualifiedTypeName name="pbas.ignacio.cliente.ClienteServicio"/>
+<fullyQualifiedTypeName name="pbas.ignacio.servicio.Servicio"/>
+<fullyQualifiedTypeName name="pbas.ignacio.servicio.implementacion.ServicioImpl"/>
+<fullyQualifiedTypeName name="pbas.ignacio.aplicacion.Aplicacion"/>
+<fullyQualifiedTypeName name="pbas.ignacio.cliente.ServicioCliente"/>
+<fullyQualifiedTypeName name="pbas.ignacio.datasourceBean.DataSourceBean"/>
+<fullyQualifiedTypeName name="pbas.ignacio.cliente.Cliente"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="pbas.ignacio.servicio.SolicitarOrden"/>
+<fullyQualifiedTypeName name="org.springframework.context.annotation.ComponentScan"/>
+<fullyQualifiedTypeName name="org.springframework.context.annotation.Bean"/>
+<fullyQualifiedTypeName name="com.sun.xml.internal.bind.v2.schemagen.xmlschema.List"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="java.util.Arrays"/>
+<fullyQualifiedTypeName name="org.springframework.context.annotation.AnnotationConfigApplicationContext"/>
+<fullyQualifiedTypeName name="pbas.ignacio.aplicacion.ConfiguracionImplicitaConstructor"/>
+<fullyQualifiedTypeName name="java.lang.Object"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="pbas.ignacio.orden.SolicitarOrden"/>
+<fullyQualifiedTypeName name="org.springframework.context.ConfigurableApplicationContext"/>
+<fullyQualifiedTypeName name="pbas.ignacio.cliente.SolicitarOrdenCliente"/>
+<fullyQualifiedTypeName name="org.springframework.context.annotation.Lazy"/>
+<fullyQualifiedTypeName name="javax.annotation.PostConstruct"/>
+<fullyQualifiedTypeName name="org.springframework.stereotype.Component"/>
+<fullyQualifiedTypeName name="org.springframework.context.annotation.Scope"/>
+<fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Qualifier"/>
+<fullyQualifiedTypeName name="pbas.ignacio.bean.MiServicio"/>
+<fullyQualifiedTypeName name="pbas.ignacio.bean.MiPrototipoBean"/>
+<fullyQualifiedTypeName name="org.springframework.context.annotation.Configuration"/>
+<fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+<fullyQualifiedTypeName name="org.springframework.context.annotation.Import"/>
+<fullyQualifiedTypeName name="pbas.ignacio.datasourceBean.Configuracion.DataSourceConfig"/>
+</qualifiedTypeNameHistroy>
